@@ -13,7 +13,7 @@ import { Elements } from '@stripe/react-stripe-js';
 import Order from './components/Order';
 // import Slider from './components/Slider';
 
-const promise = loadStripe('Your stripe publik key');
+const promise = loadStripe('pk_test_51LMYEtSE78W1C1HHgFmDfmwFSZlUBhfk083oowtnMdA17qwZuSBQnXL9Bqda6L5iUinGuALPm8LSoYdPhfJQd3Y400wmcII6Co');
 function App() {
   const [{ }, dispatch] = useStateValue();
   useEffect(() => {
